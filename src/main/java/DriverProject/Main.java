@@ -4,6 +4,9 @@
  * and open the template in the editor.
  */
 package DriverProject;
+import Assignment1.Student;
+import org.joda.time.DateTime;
+
 
 /**
  *
@@ -16,7 +19,10 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Student s1 = new Student("ryan", 32, "23/3/10");
+     Student s1 = new Student("ryan", 23, "23/2/13");
+      System.out.println(s1);
+      
     }
     
 }
+
