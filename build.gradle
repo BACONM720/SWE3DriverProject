@@ -1,0 +1,18 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+apply plugin: 'application'
+
+
+mainClassName = 'DriverProject.Main'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    testImplementation     'junit:junit:4.13'
+    implementation 'com.github.BACONM720:SWE3Assignment1:v1'
+    implementation group: 'org.terasoluna.gfw', name: 'terasoluna-gfw-jodatime', version: '5.7.0.RELEASE'
+
+}
